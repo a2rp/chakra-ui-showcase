@@ -4,6 +4,8 @@ A responsive React showcase for exploring Chakra UI components, layouts, interac
 
 The project demonstrates Chakra UI through working examples with light and dark themes, reusable application components, responsive navigation, interactive demos, and concise code hints.
 
+![Chakra UI Showcase](preview.png)
+
 ## Features
 
 - Light and dark theme support
