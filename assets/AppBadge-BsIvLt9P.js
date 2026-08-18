@@ -1,0 +1,1 @@
+import{c as e,w as t}from"./stack-DYiNv4jc.js";var{PropsProvider:n,withContext:r}=e({key:`badge`}),i=r(`span`),a=t();function o({children:e,colorPalette:t=`teal`,variant:n=`subtle`,...r}){return(0,a.jsx)(i,{colorPalette:t,variant:n,px:`3`,py:`1`,borderRadius:`md`,...r,children:e})}export{i as n,o as t};

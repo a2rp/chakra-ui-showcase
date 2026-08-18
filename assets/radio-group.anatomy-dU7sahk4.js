@@ -1,0 +1,1 @@
+import{t as e}from"./create-anatomy-CLjwtaAe.js";var t=e(`radio-group`).parts(`root`,`label`,`item`,`itemText`,`itemControl`,`indicator`),n=t.build();export{n,t};

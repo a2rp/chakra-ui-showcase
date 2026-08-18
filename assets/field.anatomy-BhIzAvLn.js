@@ -1,0 +1,1 @@
+import{t as e}from"./create-anatomy-CLjwtaAe.js";var t=e(`field`).parts(`root`,`errorText`,`helperText`,`input`,`label`,`select`,`textarea`,`requiredIndicator`),n=t.build();export{n,t};

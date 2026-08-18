@@ -1,0 +1,1 @@
+import{p as e}from"./create-anatomy-CLjwtaAe.js";import{n as t}from"./raf-B8NBjsK_.js";import{g as n}from"./event-BnEi68c8.js";function r(r){let i=()=>{let t=e(r);r.dispatchEvent(new t.MouseEvent(`click`))};n()?t(r,`keyup`,i):queueMicrotask(i)}export{r as t};

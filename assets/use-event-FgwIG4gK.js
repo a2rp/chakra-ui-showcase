@@ -1,0 +1,1 @@
+import{D as e,T as t}from"./stack-DYiNv4jc.js";var n=e(t(),1);function r(e,t={}){let{sync:r=!1}=t,a=i(e);return(0,n.useCallback)((...e)=>r?queueMicrotask(()=>a.current?.(...e)):a.current?.(...e),[r,a])}function i(e){let t=(0,n.useRef)(e);return t.current=e,t}export{r as t};

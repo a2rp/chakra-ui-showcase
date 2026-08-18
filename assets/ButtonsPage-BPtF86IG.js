@@ -1,0 +1,29 @@
+import{D as e,T as t,d as n,o as r,t as i,w as a}from"./stack-DYiNv4jc.js";import{t as o}from"./button-BDz8YMyp.js";import{n as s,r as c,t as l}from"./CodeHint-OBWtzmuc.js";import{t as u}from"./h-stack-azyYO1X5.js";import{h as d,m as f,r as p,u as m,v as h}from"./lu-Do-bd15F.js";import{t as g}from"./index-RBaDp-J5.js";import{t as _}from"./AppButton-OgoRiVIh.js";var v=a();function y(){return(0,v.jsxs)(s,{title:`Button`,text:`Buttons trigger actions such as submitting forms, confirming operations, opening interfaces, and starting workflows.`,children:[(0,v.jsxs)(i,{gap:`5`,children:[(0,v.jsxs)(u,{gap:`4`,flexWrap:`wrap`,children:[(0,v.jsx)(_,{children:`Primary Action`}),(0,v.jsx)(_,{colorPalette:`blue`,children:`Save Changes`}),(0,v.jsx)(_,{colorPalette:`purple`,children:`Continue`}),(0,v.jsx)(_,{colorPalette:`orange`,children:`Upgrade`})]}),(0,v.jsx)(r,{color:`fg.muted`,fontSize:`sm`,lineHeight:`1.8`,children:`colorPalette changes the visual color system while the reusable AppButton keeps spacing and common behavior consistent.`})]}),(0,v.jsx)(l,{code:`<AppButton colorPalette="teal">
+    Primary Action
+</AppButton>`})]})}var b=[`solid`,`subtle`,`surface`,`outline`,`ghost`,`plain`];function x(){return(0,v.jsxs)(s,{title:`Button Variants`,text:`Variants provide different visual emphasis levels while keeping the same button interaction model.`,children:[(0,v.jsx)(u,{gap:`4`,flexWrap:`wrap`,children:b.map(e=>(0,v.jsx)(o,{variant:e,colorPalette:`teal`,px:`5`,children:e},e))}),(0,v.jsx)(l,{code:`<Button
+    variant="outline"
+    colorPalette="teal"
+>
+    Outline
+</Button>`})]})}var S=[`xs`,`sm`,`md`,`lg`,`xl`,`2xl`];function C(){return(0,v.jsxs)(s,{title:`Button Sizes`,text:`Button sizes help communicate hierarchy and adapt controls to different interface densities.`,children:[(0,v.jsx)(u,{gap:`4`,align:`center`,flexWrap:`wrap`,children:S.map(e=>(0,v.jsx)(o,{size:e,colorPalette:`teal`,children:e},e))}),(0,v.jsx)(l,{code:`<Button
+    size="lg"
+    colorPalette="teal"
+>
+    Large Button
+</Button>`})]})}function w(){return(0,v.jsxs)(s,{title:`Button States`,text:`Buttons communicate whether an action is available, disabled, or currently processing.`,children:[(0,v.jsxs)(i,{gap:`5`,children:[(0,v.jsxs)(u,{gap:`4`,flexWrap:`wrap`,children:[(0,v.jsx)(o,{colorPalette:`teal`,px:`5`,children:`Normal`}),(0,v.jsx)(o,{colorPalette:`teal`,px:`5`,disabled:!0,children:`Disabled`}),(0,v.jsx)(o,{colorPalette:`teal`,px:`5`,loading:!0,children:`Loading`}),(0,v.jsx)(o,{colorPalette:`teal`,px:`5`,loading:!0,loadingText:`Saving`,children:`Save`})]}),(0,v.jsx)(r,{color:`fg.muted`,fontSize:`sm`,children:`Loading states help prevent duplicate actions while communicating progress to the user.`})]}),(0,v.jsx)(l,{code:`<Button
+    loading
+    loadingText="Saving"
+>
+    Save
+</Button>`})]})}function T(){return(0,v.jsxs)(s,{title:`Icon Button`,text:`Icon buttons provide compact actions when a familiar icon can clearly communicate the intended behavior.`,children:[(0,v.jsxs)(i,{gap:`5`,children:[(0,v.jsxs)(u,{gap:`4`,flexWrap:`wrap`,children:[(0,v.jsx)(g,{"aria-label":`Search`,variant:`primary`,children:(0,v.jsx)(f,{})}),(0,v.jsx)(g,{"aria-label":`Notifications`,variant:`outline`,children:(0,v.jsx)(p,{})}),(0,v.jsx)(g,{"aria-label":`Favorite`,variant:`ghost`,children:(0,v.jsx)(m,{})}),(0,v.jsx)(g,{"aria-label":`Settings`,variant:`ghost`,children:(0,v.jsx)(d,{})}),(0,v.jsx)(g,{"aria-label":`Delete`,variant:`danger`,children:(0,v.jsx)(h,{})})]}),(0,v.jsx)(r,{color:`fg.muted`,fontSize:`sm`,lineHeight:`1.8`,children:`Icon-only controls should include an aria-label so their purpose remains accessible.`})]}),(0,v.jsx)(l,{code:`<AppIconButton
+    aria-label="Search"
+    variant="primary"
+>
+    <LuSearch />
+</AppIconButton>`})]})}var E=e(t(),1);function D(){let[e,t]=(0,E.useState)(0),[a,o]=(0,E.useState)(!0),[c,d]=(0,E.useState)(!1);return(0,v.jsxs)(s,{title:`Working Button Interactions`,text:`These examples connect Chakra UI buttons with real React state instead of showing only static styling.`,children:[(0,v.jsxs)(i,{gap:`8`,children:[(0,v.jsxs)(n,{children:[(0,v.jsx)(r,{mb:`3`,color:`fg.muted`,fontSize:`sm`,fontWeight:`bold`,children:`Click Counter`}),(0,v.jsxs)(u,{gap:`4`,flexWrap:`wrap`,children:[(0,v.jsx)(_,{onClick:()=>t(e=>e+1),children:`Click Me`}),(0,v.jsxs)(r,{color:`fg`,children:[`Clicks:`,` `,(0,v.jsx)(r,{as:`span`,color:`teal.500`,fontWeight:`bold`,children:e})]}),(0,v.jsx)(_,{variant:`outline`,onClick:()=>t(0),children:`Reset`})]})]}),(0,v.jsxs)(n,{children:[(0,v.jsx)(r,{mb:`3`,color:`fg.muted`,fontSize:`sm`,fontWeight:`bold`,children:`Toggle State`}),(0,v.jsxs)(u,{gap:`4`,flexWrap:`wrap`,children:[(0,v.jsx)(_,{variant:a?`success`:`danger`,onClick:()=>o(e=>!e),children:a?`Enabled`:`Disabled`}),(0,v.jsxs)(r,{color:`fg.muted`,children:[`Current state:`,` `,(0,v.jsx)(r,{as:`span`,color:a?`green.500`:`red.500`,fontWeight:`bold`,children:a?`Active`:`Inactive`})]})]})]}),(0,v.jsxs)(n,{children:[(0,v.jsx)(r,{mb:`3`,color:`fg.muted`,fontSize:`sm`,fontWeight:`bold`,children:`Async Action`}),(0,v.jsxs)(u,{gap:`4`,flexWrap:`wrap`,children:[(0,v.jsx)(_,{colorPalette:`blue`,loading:c,loadingText:`Saving`,onClick:()=>{d(!0),window.setTimeout(()=>{d(!1)},1500)},children:`Save Changes`}),(0,v.jsx)(r,{color:`fg.muted`,children:c?`Simulating an async operation...`:`Ready to save`})]})]})]}),(0,v.jsx)(l,{code:`const [count, setCount] = useState(0);
+
+<AppButton
+    onClick={() => setCount((value) => value + 1)}
+>
+    Click Me
+</AppButton>`})]})}function O(){return(0,v.jsxs)(i,{gap:`8`,children:[(0,v.jsx)(c,{title:`Buttons`,text:`Explore Chakra UI buttons, variants, sizes, states, icon actions, color palettes, and practical React interactions.`}),(0,v.jsx)(y,{}),(0,v.jsx)(x,{}),(0,v.jsx)(C,{}),(0,v.jsx)(w,{}),(0,v.jsx)(T,{}),(0,v.jsx)(D,{})]})}export{O as default};

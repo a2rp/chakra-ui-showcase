@@ -1,0 +1,1 @@
+import{D as e,T as t,t as n,w as r}from"./stack-DYiNv4jc.js";var i=r(),a=(0,e(t(),1).forwardRef)(function(e,t){return(0,i.jsx)(n,{align:`center`,...e,direction:`row`,ref:t})});a.displayName=`HStack`;export{a as t};

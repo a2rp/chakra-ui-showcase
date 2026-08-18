@@ -1,0 +1,1 @@
+function e(e){let{each:t,fallback:n,children:r}=e;return t?.length===0?n||null:t?.map(r)}export{e as t};
