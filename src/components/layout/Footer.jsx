@@ -48,11 +48,11 @@ function Footer() {
                 gap="3"
             >
                 <Text color="fg.muted" fontSize="sm">
-                    © {currentYear} Chakra UI Showcase. Developed by{" "}
+                    Copyright &copy; {currentYear} Chakra UI Showcase. Developed by{" "}
                     <Link
                         href="https://www.ashishranjan.net"
                         target="_blank"
-                        rel="noreferrer"
+                        rel="noopener noreferrer"
                         color="teal.500"
                         fontWeight="bold"
                         _hover={{
@@ -61,11 +61,11 @@ function Footer() {
                     >
                         Ashish Ranjan
                     </Link>
-                    {" · "}
+                    {" | "}
                     <Link
                         href="https://a2rp-donation-page.netlify.app/"
                         target="_blank"
-                        rel="noreferrer"
+                        rel="noopener noreferrer"
                         color="teal.500"
                         fontWeight="bold"
                         _hover={{
@@ -75,6 +75,13 @@ function Footer() {
                         Support my work
                     </Link>
                 </Text>
+                <Flex wrap="wrap" gap="3" fontSize="sm">
+                    <Link href="https://github.com/a2rp" target="_blank" rel="noopener noreferrer">GitHub</Link>
+                    <Link href="https://codepen.io/ash1198" target="_blank" rel="noopener noreferrer">CodePen</Link>
+                    <Link href="mailto:ash.ranjan09@gmail.com">Email</Link>
+                    <Link href="https://buymeacoffee.com/a2rp" target="_blank" rel="noopener noreferrer">Buy Me A Coffee</Link>
+                    <Link href="https://patreon.com/a2rp" target="_blank" rel="noopener noreferrer">Patreon</Link>
+                </Flex>
 
                 <Text color="fg.muted" fontSize="sm">
                     Last Updated: {formatDate(__LAST_UPDATED__)}
