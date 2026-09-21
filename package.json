@@ -9,7 +9,7 @@
         "lint": "eslint .",
         "preview": "vite preview",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d dist -b gh-pages"
+        "deploy": "npx --yes gh-pages -d dist -b gh-pages"
     },
     "dependencies": {
         "@chakra-ui/react": "^3.36.1",
