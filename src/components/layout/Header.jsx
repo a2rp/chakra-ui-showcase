@@ -1,4 +1,4 @@
-import { Box, Flex, Heading, HStack, Link, Text } from "@chakra-ui/react";
+import { Box, Flex, Heading, HStack, Image, Link, Text } from "@chakra-ui/react";
 import { NavLink } from "react-router-dom";
 import ThemeToggle from "../ui/ThemeToggle";
 import MobileNavDrawer from "./MobileNavDrawer";
@@ -24,23 +24,35 @@ function Header() {
                     lg: "8",
                 }}
             >
-                <Box>
-                    <Heading size="lg" color="fg">
-                        Chakra UI Showcase
-                    </Heading>
+                <Flex align="center" gap="3" minW="0">
+                    <Image
+                        src={`${import.meta.env.BASE_URL}logo.png`}
+                        alt="Chakra UI Showcase logo"
+                        boxSize="40px"
+                        objectFit="contain"
+                        border="1px solid"
+                        borderColor="border"
+                        borderRadius="10px"
+                        bg="bg.subtle"
+                    />
+                    <Box minW="0">
+                        <Heading size="lg" color="fg">
+                            Chakra UI Showcase
+                        </Heading>
 
-                    <Text
-                        mt="1"
-                        fontSize="sm"
-                        color="fg.muted"
-                        display={{
-                            base: "none",
-                            sm: "block",
-                        }}
-                    >
-                        Complete React component showcase
-                    </Text>
-                </Box>
+                        <Text
+                            mt="1"
+                            fontSize="sm"
+                            color="fg.muted"
+                            display={{
+                                base: "none",
+                                sm: "block",
+                            }}
+                        >
+                            Complete React component showcase
+                        </Text>
+                    </Box>
+                </Flex>
 
                 <HStack
                     ml="auto"
