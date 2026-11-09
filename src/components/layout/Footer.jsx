@@ -80,7 +80,12 @@ function Footer() {
                         Ashish Ranjan
                     </Link>
                 </Text>
-                <Flex wrap="wrap" gap="2" aria-label="Social and support links">
+                <Flex
+                    as="nav"
+                    aria-label="Social and support links"
+                    wrap="wrap"
+                    gap="2"
+                >
                     {footerLinks.map(({ label, href, icon: Icon }) => (
                         <Link
                             key={label}

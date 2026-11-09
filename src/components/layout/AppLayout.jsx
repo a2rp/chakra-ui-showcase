@@ -10,7 +10,7 @@ function AppLayout({ children }) {
     const mainRef = useRef(null);
 
     return (
-        <Box h="100vh" bg="bg" color="fg" overflow="hidden">
+        <Box h="100vh" bg="app.bg" color="app.text" overflow="hidden">
             <Header />
 
             <Flex h="calc(100vh - 72px)" overflow="hidden">

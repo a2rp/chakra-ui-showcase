@@ -4,52 +4,54 @@ const customConfig = defineConfig({
     theme: {
         semanticTokens: {
             colors: {
-                "app.bg": {
-                    value: {
-                        base: "{colors.gray.50}",
-                        _dark: "{colors.gray.950}",
+                app: {
+                    bg: {
+                        value: {
+                            base: "{colors.gray.50}",
+                            _dark: "{colors.gray.950}",
+                        },
                     },
-                },
 
-                "app.panel": {
-                    value: {
-                        base: "{colors.white}",
-                        _dark: "{colors.gray.900}",
+                    panel: {
+                        value: {
+                            base: "{colors.white}",
+                            _dark: "{colors.gray.900}",
+                        },
                     },
-                },
 
-                "app.panelHover": {
-                    value: {
-                        base: "{colors.gray.100}",
-                        _dark: "{colors.whiteAlpha.100}",
+                    panelHover: {
+                        value: {
+                            base: "{colors.gray.100}",
+                            _dark: "{colors.whiteAlpha.100}",
+                        },
                     },
-                },
 
-                "app.text": {
-                    value: {
-                        base: "{colors.gray.950}",
-                        _dark: "{colors.gray.50}",
+                    text: {
+                        value: {
+                            base: "{colors.gray.950}",
+                            _dark: "{colors.gray.50}",
+                        },
                     },
-                },
 
-                "app.textMuted": {
-                    value: {
-                        base: "{colors.gray.600}",
-                        _dark: "{colors.gray.400}",
+                    textMuted: {
+                        value: {
+                            base: "{colors.gray.600}",
+                            _dark: "{colors.gray.400}",
+                        },
                     },
-                },
 
-                "app.border": {
-                    value: {
-                        base: "{colors.gray.200}",
-                        _dark: "{colors.whiteAlpha.200}",
+                    border: {
+                        value: {
+                            base: "{colors.gray.200}",
+                            _dark: "{colors.whiteAlpha.200}",
+                        },
                     },
-                },
 
-                "app.accent": {
-                    value: {
-                        base: "{colors.teal.600}",
-                        _dark: "{colors.teal.300}",
+                    accent: {
+                        value: {
+                            base: "{colors.teal.600}",
+                            _dark: "{colors.teal.300}",
+                        },
                     },
                 },
             },

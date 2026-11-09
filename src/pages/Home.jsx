@@ -26,7 +26,7 @@ const features = [
     },
     {
         title: "Working Examples",
-        text: "Interactive Chakra UI components will be demonstrated with real React state and behavior.",
+        text: "Interactive examples show how Chakra UI components work with React state and behavior.",
     },
 ];
 
