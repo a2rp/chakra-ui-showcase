@@ -1,4 +1,4 @@
-import { Box, Button, Heading, Stack, Text } from "@chakra-ui/react";
+import { Box, Button, Heading, Link, Stack, Text } from "@chakra-ui/react";
 import { NavLink } from "react-router-dom";
 import navigationItems from "../../data/navigationItems";
 
@@ -62,26 +62,31 @@ function Sidebar() {
                     }
 
                     return (
-                        <NavLink key={item.to} to={item.to} end={item.end}>
-                            {({ isActive }) => (
-                                <Button
-                                    variant="ghost"
-                                    justifyContent="flex-start"
-                                    w="full"
-                                    px="4"
-                                    py="3"
-                                    borderRadius="md"
-                                    color={isActive ? "teal.500" : "fg.muted"}
-                                    bg={isActive ? "bg.subtle" : "transparent"}
-                                    _hover={{
-                                        bg: "bg.subtle",
-                                        color: "fg",
-                                    }}
-                                >
-                                    {item.label}
-                                </Button>
-                            )}
-                        </NavLink>
+                        <Link
+                            key={item.to}
+                            asChild
+                            variant="plain"
+                            display="flex"
+                            alignItems="center"
+                            w="full"
+                            px="4"
+                            py="3"
+                            borderRadius="md"
+                            color="fg.muted"
+                            _currentPage={{
+                                color: "teal.500",
+                                bg: "bg.subtle",
+                                fontWeight: "bold",
+                            }}
+                            _hover={{
+                                bg: "bg.subtle",
+                                color: "fg",
+                            }}
+                        >
+                            <NavLink to={item.to} end={item.end}>
+                                {item.label}
+                            </NavLink>
+                        </Link>
                     );
                 })}
             </Stack>

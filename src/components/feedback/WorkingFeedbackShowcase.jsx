@@ -13,18 +13,15 @@ function WorkingFeedbackShowcase() {
             return undefined;
         }
 
+        let nextProgress = 0;
         const interval = window.setInterval(() => {
-            setProgress((current) => {
-                const next = current + 10;
+            nextProgress = Math.min(nextProgress + 10, 100);
+            setProgress(nextProgress);
 
-                if (next >= 100) {
-                    window.clearInterval(interval);
-                    setStatus("success");
-                    return 100;
-                }
-
-                return next;
-            });
+            if (nextProgress === 100) {
+                window.clearInterval(interval);
+                setStatus("success");
+            }
         }, 180);
 
         return () => {
